@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Leetcode.Tests
 {
-    public class Tests
+    public class BinaryTreeLevelOrderTraversalTests
     {
         [Test]
         public void Test1()
