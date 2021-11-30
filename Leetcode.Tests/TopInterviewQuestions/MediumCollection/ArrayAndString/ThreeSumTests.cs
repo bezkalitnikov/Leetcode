@@ -52,6 +52,10 @@ namespace Leetcode.Tests
                     new List<int> {-1, -1, 2},
                     new List<int> {-1, 0, 1}
                 });
+                yield return new TestCaseData(new[] {0, 0, 0}).Returns(new List<IList<int>>
+                { 
+                    new List<int> {0, 0, 0}
+                });
             }
         }
     }
